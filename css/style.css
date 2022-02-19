@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4d636f;
+    top: 0;
+    height: 48px;
+}
+#left ul{
+    display: flex;
+    list-style: none;
+}
+#left ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 25px;
+    font-size: 1.2rem;
+}
+#right a{
+    padding: 15px 25px;
+    color: white;
+}
+#left ul li a:hover{
+    background-color: white;
+    color: black;
+}
+#right a:hover{
+    background-color: white;
+    color: black;
+}
+
+#gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 250px;
+}
+#left1{
+    margin: 2px 2px;
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#gridcontainer #mid{
+    background-color: white;
+    margin: 2px 2px;
+}
+#gridcontainer #right{
+    background-color: white;
+    margin: 2px 2px;
+}
+#gridcontainer #left1 #profile{
+   /* text-align: center; */
+   font-size: 1.3rem;
+   margin: 15px 15px;
+   box-shadow: 5px 10px 8px rgb(90, 89, 89);
+}
+#gridcontainer #left1 #profile h4{
+   margin: 6px;
+   text-align: center;
+   padding: 8px;
+}
+
+#gridcontainer #left1 #profile img{
+    max-width: 80px;
+    border-radius: 47px;
+    padding: 10px 10px;
+    margin: auto auto;
+    display: block;
+
+}
+.profile_items{
+    padding: 7px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+#gridcontainer #pc{
+    background-color: lightslategray;
+    margin: 15px 15px;
+    box-shadow: 5px 10px 8px rgb(90, 89, 89);
+}
+.bx{
+    padding: 10px;
+    color: white;
+}
+.bx:hover{
+    background-color: rgb(241, 243, 245);
+    color: black;
+    
+}
+#gridcontainer #interest{
+    margin: 15px 15px;
+    box-shadow: 5px 10px 8px rgb(90, 89, 89);
+}
+#gridcontainer #interest h4{
+    padding: 12px;
+}
+#gridcontainer #interest span{
+    padding: 1px 4px;
+    background-color: rgb(114, 111, 111);
+    color: white;
+}
+.alert {
+    padding: 20px;
+    background-color: #aabbd1;
+    color: rgb(2, 0, 0);
+    margin: 15px 15px;
+    border-radius: 10px;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  #mid{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+  #mid #post{
+      background-color: white;
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-top: 15px;
+      box-shadow: 5px 10px 8px rgb(90, 89, 89);
+      padding: 12px;
+  }
+  #mid #post h4{
+      margin: 2px 2px;
+      font-size: 1.1rem;
+  }
+  #mid #post p{
+      margin: 15px 5px;
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 5px;
+  }
+  #mid #post button{
+      margin: 5px 12px;
+      padding: 7px 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: lightslategray;
+      color: white;
+      display: block;
+      border: none;
+  }
+  #mid #post button:hover{
+      background-color: rgb(206, 202, 202);
+      color: black;
+      
+    }
+    #mid #people{
+    
+        margin: 15px 15px;
+        box-shadow: 5px 10px 8px rgb(90, 89, 89);
+        display: block;
+    }
+    #mid #people #av{
+        max-width: 71px;
+        border-radius: 54px;
+        margin: 10px 12px;
+    }
+    #mid #people h4{
+        display: inline-block;
+        position: relative;
+        top: -39px;
+        left: -4px;
+        font-size: 1.4rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+    #mid #people span{
+        position: relative;
+        top: -59px;
+        right: -443px;
+        display: inline-block;
+    }  
+    #mid #people p{
+        margin: 2px 10px;
+    }
+    #mid #people #p{
+        font-family: 'Spline Sans', sans-serif;
+        margin: 2px 10px;
+    }
+    #mid #people img{
+        max-width: 317px;
+        margin: 13px;
+    }
+    .btn{
+        margin: 4px 10px;
+    }
+    .btn button{
+        padding: 5px 10px;
+        font-size: 1.1rem;
+        background-color: rgb(104, 117, 129);
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+    .btn button:hover{
+        background-color: rgb(206, 202, 202);
+        color: black;
+    }
+    #right{
+        grid-row-start: 1;
+    grid-row-end: 3;
+    }
+    #revent{
+        margin: 15px 10px;
+        text-align: center;
+        box-shadow: 5px 10px 8px rgb(90, 89, 89);
+    }
+    #revent h4{
+        margin: 2px;
+    }
+    #revent img{
+        max-width: 144px;
+        margin-top: 15px;
+        
+    }
+    #revent button{
+        padding: 8px 80px;
+        margin: 5px 4px;
+        font-size: 1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: none;
+    }
+    #revent button:hover{
+        background-color: rgb(199, 204, 209);
+        color: black;
+    }
+    #req{
+        margin: 15px 10px;
+        text-align: center;
+        box-shadow: 5px 10px 8px rgb(90, 89, 89);
+    }
+    #req h4{
+        margin: 2px;
+    }
+    #req img{
+        max-width: 100px;
+        margin-top: 15px;
+        border-radius: 57px;
+    }
+    .b{
+        margin: 5px 2px;
+    }
+    #req #l{
+        padding: 8px 30px;
+        background-color: red;
+        color: white;
+        border: none;
+    }
+    #req #r{
+        padding: 8px 30px;
+        background-color: rgb(73, 250, 73);
+        border: none;
+    }
+    #req #l:hover{
+        background-color: rgb(228, 222, 222);
+        color: black;
+    }
+    #req #r:hover{
+        background-color: rgb(228, 222, 222);
+        color: black;
+    }
+    #ads{
+        padding: 35px;
+        margin: 15px 10px;
+        text-align: center;
+        box-shadow: 5px 10px 8px rgb(90, 89, 89);
+    }
+    #sp{
+        padding: 60px;
+        margin: 15px 10px;
+        text-align: center;
+        font-size: 2rem;
+        box-shadow: 5px 10px 8px rgb(90, 89, 89);
+    }
+
+    #foot0{
+        background-color: lightslategray;
+        color: white;
+        padding: 30px;
+        font-size: 1.4rem;
+    }
+    #foot1{
+        background-color: gray;
+        color: white;
+        padding: 15px;
+        font-size: 1.1rem;
+    }
+    @media only screen and (max-width: 763px) {
+        body{
+            background-color: red;
+        }
+    }
